@@ -1,6 +1,6 @@
  var socket = new WebSocket("ws://" + window.location.host + "/");
 
-var name = prompt("Your name?");
+var name = prompt("Enter your name");
 
 var dPar=$("<p>")
   socket.addEventListener('message', function(message) {
